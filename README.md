@@ -1,6 +1,6 @@
-# Curso Desenvolvimento Web
+# Exercícios do curso de Desenvolvimento Web
 
-Curso: [Desenvolvimento Web](https://www.udemy.com/share/101Wu8BkIcdFtTQXQ=/) 
+Curso: [Desenvolvedor Web Completo](https://www.udemy.com/share/101Wu8BkIcdFtTQXQ=/) 
 
 Local: Udemy
 
