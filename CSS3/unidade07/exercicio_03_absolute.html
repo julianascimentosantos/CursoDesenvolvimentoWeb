@@ -25,12 +25,15 @@
                 box-shadow: 0 0 10px #666;
                 margin:10px auto;
                 padding:10px;
+                position: relative;
+                height: 500px;
             }
 
             #principal {
                 background-color:rgb(240,240,240);
                 border:1px dotted #666666;
                 margin-top:20px;
+                position: relative;
             }
 
             section {
@@ -39,14 +42,22 @@
 
             .janela1 {
                 background-color:rgb(153,204,51);
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                z-index: 2;
             }
 
             .janela2 {
                 background-color:rgb(255,204,51);
+                position: absolute;
+                z-index: 4;
             }
 
             .janela3 {
                 background-color:rgb(51,153,204);
+                position: absolute;
+                z-index: 5;
             }
         </style>
     </head>
