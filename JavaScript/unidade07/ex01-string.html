@@ -2,7 +2,18 @@
     <head>
         <title>Aulas de Javascript</title>
         <script>
-            
+            var frase = "Julia Nascimento Santos";
+            var primeira = frase.charAt(1);
+
+            var letra = "";
+            var primeira_palavra = "";
+            var i = 0;
+            while (letra != " ") {
+                letra = frase.charAt(i);
+                primeira_palavra += letra;
+                i++;
+            }
+            console.log(primeira_palavra);
         </script>
     </head>
     <body>
