@@ -2,7 +2,15 @@
     <head>
         <title>Aulas de Javascript</title>
         <script>
+            var produto = {Nome:"Caneta", Preço:1.99, Cor:"Azul"};
 
+            function retornarInfo() {
+                return "O produto " + this.Nome + " custa " + this.Preço;
+            }
+
+            produto.info = retornarInfo;
+
+            console.log(produto.info());
         </script>
     </head>
     <body>

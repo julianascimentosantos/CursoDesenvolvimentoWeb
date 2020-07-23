@@ -3,7 +3,14 @@
         <title>Aulas de Javascript</title>
         <script>
             var nome = "Curso Javascript Fundamental";
-            var primeira = nome.substr(0,5);
+            var primeira = ""
+            var i = 0;
+            var letra = ""
+            while (letra !=" ") {
+                letra = nome.charAt(i);
+                primeira = nome.substr(0,i);
+                i++
+            }
 
             console.log(primeira);
         </script>
