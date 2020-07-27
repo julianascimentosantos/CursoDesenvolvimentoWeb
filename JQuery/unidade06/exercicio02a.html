@@ -13,9 +13,9 @@
             $(function(e) {
                 $('#janela').hide();
                 
-                $('#mostrar').click( mostrarElemento );
+                $('#mostrar').hover( mostrarElemento,esconderElemento );
 
-                $('#esconder').click( esconderElemento );
+                
         })
 
         function mostrarElemento(e) {
@@ -30,7 +30,6 @@
 
     <body>
         <input type="button" id="mostrar" 	value="Mostrar" />
-        <input type="button" id="esconder" 	value="Esconder" />
         
         <div id="janela"></div>
     </body>

@@ -16,15 +16,17 @@
 			})
 			
 			function esconderObjeto() {
-			
+				$('#janela').hide(300);
 			}
 
 			function mostrarObjeto() {
-				
+				$('#janela').show(2000, function(e){
+					alert("finalizou a animação");
+				});
 			}
 
 			function reverterObjeto() {
-			
+				$('#janela').toggle(300);
 			}
 		</script>        
     </head>
